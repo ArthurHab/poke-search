@@ -1,0 +1,18 @@
+{
+    "produtos": [
+        { "id": 1, "nome": "Agua", "preco": 5, "imagem": "agua.png"},
+        { "id": 2, "nome": "Old par", "preco": 150, "imagem": "old_par.png"},
+        { "id": 3, "nome": "Budweiser", "preco": 8, "imagem": "budweiser.png"},
+        { "id": 4, "nome": "Coca Cola 1L", "preco": 5, "imagem": "coca_cola_1.png"},
+        { "id": 5, "nome": "Coca Cola 2L", "preco": 8, "imagem": "coca_cola_2.png"},
+        { "id": 6, "nome": "Coca Cola Lata", "preco": 3, "imagem": "coca_lata.png"},
+        { "id": 7, "nome": "Fanta Lata", "preco": 3, "imagem": "fanta_lata.png"},
+        { "id": 8, "nome": "Pepsi Lata", "preco": 3, "imagem": "pepsi_lata.png"},
+        { "id": 9, "nome": "Heineken Gar.", "preco": 12, "imagem": "heineken_garrafa.png"},
+        { "id": 10, "nome": "Heineken Lata", "preco": 6, "imagem": "heineken_lata.png"},
+        { "id": 11, "nome": "Jack Daniels", "preco": 200, "imagem": "jack_daniels.png"},
+        { "id": 12, "nome": "Red label", "preco": 100, "imagem": "red_label.png"},
+        { "id": 13, "nome": "Outro", "preco": 100, "imagem": "red_label.png"}
+    ]
+}
+

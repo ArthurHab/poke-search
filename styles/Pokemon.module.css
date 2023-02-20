@@ -1,0 +1,47 @@
+.Pokemon{
+    position: relative;
+    height: 160px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    border-radius: 25px;
+}
+
+.imagemContainer{
+    position: relative;
+    height: 80px;
+    width: 80px;
+}
+
+.imagemProduto{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+}
+
+.precoProduto{
+    font-weight: bold;
+}
+
+.botaoExpandir{
+    height: 20px;
+    width: 80px;
+    border: none;
+    border-radius: 25px;
+    background-color: #09a75d;
+    color: white;
+}
+
+.botaoExpandir:hover{
+    background-color: #087f47;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nomePokemon{
+    text-transform: capitalize;
+}

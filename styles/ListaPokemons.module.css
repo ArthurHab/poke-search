@@ -1,0 +1,181 @@
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.listaPokemonsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.ListaDosPokemons{
+    width: 550px;
+    background-color: #A770EF;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 30px;
+}
+
+.containerPokemonsControler{
+    display: flex;
+    gap: 10px;
+}
+
+.botaoControle{
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.botaoControle:hover{
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+.campoPesquisa{
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.containerPedido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+}
+
+.CarrinhoProdutos{
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+}
+
+.pokemonSelecionado{
+    background-color: white;
+    height: 550px;
+    width: 500px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.closeButton{
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    background-color: #09a75d;
+    color: white;
+}
+
+.closeButton:hover{
+    background-color: #087f47;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.pokemonInfos{
+    height: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.abilitiesBox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ability{
+    background-color:#A770EF;
+    height: 20px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 890px) {
+    .mainContainer{
+        flex-direction: column-reverse;
+        gap: 50px;
+        margin-bottom: 20px;
+    }
+    .ListaDosPokemons{
+        max-width: 550px;
+    }
+}
+
+@media (max-width: 625px) {
+    .ListaDosPokemons{
+        width: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+    .pokemonSelecionado{
+        max-width: 300px;
+    }
+    .botaoControle{
+        width: 120px;
+    }
+}
+
+@media (max-width: 450px) {
+    .ListaDosPokemons{
+        width: 300px;
+    }
+}
+
+@media (max-width: 328px) {
+    .ListaDosPokemons{
+        width: 150px;
+    }
+    .imagemSelecionado{
+        height: 200px;
+        width: 200px;
+    }
+    .pokemonInfos{
+        width: 150px;
+    }
+    .pokemonSelecionado{
+        max-width: 200px;
+    }
+}

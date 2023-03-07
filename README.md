@@ -25,7 +25,7 @@ O Poke Search é uma aplicação que permite que você pesquise e visualize info
 ## ✨ Layout
 
 <p align="center">
-  <img alt="layout" src="./github/assets/layout.png">
+  <img alt="layout" src="./github/assets/layout.jpg">
 </p>
 
 ## 🔖 Como executar
@@ -39,5 +39,5 @@ Agora você pode acessar [`localhost:3001`](http://localhost:3001) do seu navega
 ## 🎬 Executando a aplicação
 
 <p align="center">
-  <img alt="layout" src="./github/assets/animation.gif">
+  <img alt="layout" src="./github/assets/video.gif">
 </p>
